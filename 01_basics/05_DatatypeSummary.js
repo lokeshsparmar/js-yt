@@ -33,3 +33,29 @@ const myFunction=function(){
 console.log(typeof bigNumber)
 
 //return type of non primitive datatype is function but return type of funtion is object function
+
+
+//*************************memory**********************************
+
+//stack(all primitive values will go),heap(all non-primitive)
+
+let myName="Lokesh Singh Parmar"
+
+let anotherName= myName;
+anotherName="great lokesh"
+
+console.log(myName)
+console.log(anotherName)
+
+let UserOne={
+    email:"lokeshprmar@gmail.com",
+    upi:"5793478734.ybl"
+}
+let UserTwo=UserOne
+UserTwo.email="lokesh@gmail.com"
+
+console.log(UserOne.email);
+console.log(UserTwo.email);
+
+
+//in heap we get reference(whatever change we will do it will be in original value) but in stack we get copy
