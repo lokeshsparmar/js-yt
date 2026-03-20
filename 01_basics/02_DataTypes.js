@@ -1,6 +1,6 @@
 "use strict";//treat all js code as newer vesion of javascript
 //js engine is hidden inside browser
-//alert(3+3)??we r using nodejs not browser
+//alert(3+3)//we r using nodejs not browser
 console.log(3+3)//code readability should be high
 //tc39.es ecma script is standard
 
