@@ -46,11 +46,36 @@ const users=[
 ]
 
 users[1].email
-console.log(tinderUser)
+//console.log(tinderUser)
 
-console.log(Object.keys(tinderUser))  //to grt the keys
-console.log(Object.values(tinderUser))  //to get the values
-console.log(Object.entries(tinderUser)) //key and valuues are converted into array in array first element will be key and second will ne value
+//console.log(Object.keys(tinderUser))  //to grt the keys
+//console.log(Object.values(tinderUser))  //to get the values
+//console.log(Object.entries(tinderUser)) //key and valuues are converted into array in array first element will be key and second will ne value
 
-console.log(tinderUser.hasOwnProperty('isLogged'))  //to ask the object wheather that property is there or not
+//console.log(tinderUser.hasOwnProperty('isLogged'))  //to ask the object wheather that property is there or not
 
+
+const course={
+    coursename:"js in hindi",
+    price:"999",
+    courseInstructor:"hitesh"
+}
+
+// course.courseinstructor
+
+const{courseInstructor :instructor }=course//destructur
+
+//console.log(courseInstructor);
+console.log(instructor)
+
+// {
+//     " name":"lokesh",
+//     "coursename":"js in hindi",
+//     "price":"free"
+// }
+
+[
+    {}
+    {}
+    {}
+]
