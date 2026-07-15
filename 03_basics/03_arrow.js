@@ -37,8 +37,14 @@ const chai=()=>{
 //     return num1+num2
 // }
 
-const adddtwo =(num1,num2)=>num1,num2
-const addtwo=(num1,num2)=>(num1+num2)   //implicit return
-console.log(addtwo(3,55))
+// const adddtwo =(num1,num2)=>num1,num2
+// const addtwo=(num1,num2)=>(num1+num2)   //implicit return ,to return the onject we need to wrap it in paranthesis i.e.()
+const addtwo=(num1,num2)=>({username:"lokesh"})
+ 
+console.log(addtwo(2,4))
 
-const myArray(andTwo)
+
+
+
+
+ 
